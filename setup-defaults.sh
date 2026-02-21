@@ -18,3 +18,6 @@ echo "export HISTFILE=\"\$ZDOTDIR/.zhistory\"" >> ~/.zshenv
 echo "export HISTSIZE=\"10000\"" >> ~/.zshenv
 echo "export SAVEHIST=\"10000\"" >> ~/.zshenv
 echo "" >> ~/.zshenv
+
+# suppress system messages when opening a terminal
+touch ~/.hushlogin
