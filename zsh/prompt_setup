@@ -1,0 +1,5 @@
+prompt_setup() {
+    PROMPT=$'%~ %B%F{blue}>%f%b '
+}
+
+prompt_setup
